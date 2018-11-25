@@ -1,0 +1,186 @@
+@media (min-width:551px) and (max-width:1000px) {
+    .headingDiv {
+        font-size: 1em;
+   }
+   
+    .icon {
+        width: 20%;
+        height: auto;
+   }
+}
+@media (max-width:550px) {
+    .headingDiv {
+        font-size: 0.6em;
+   }
+    .proj1,
+    .proj2,
+    .proj3 {
+        width:100%;
+   }
+   
+    h4 {
+        font-size: 1.5em;
+        line-height: 0;
+   }
+   
+    .h3Div {
+        font-size:0.7em 
+   }
+    
+    .icon {
+        width: 20%;
+        height: auto;
+   }
+}
+
+.tictac {
+    width: 100%;
+    height: auto;
+    box-shadow: 4px 8px 15px 0px #888888 
+}
+
+.code {
+    width:100%;
+    box-shadow: 0px 4px 15px -5px #888888 
+}
+
+@media (max-width:620px) {
+    h4 {
+        font-weight: 100;
+        color: #2d3c49;
+        text-align: center;
+        width: 90%;
+   }
+}
+
+@media (min-width:621px) {
+    h4 {
+        font-weight: 100;
+        color: #2d3c49;
+        text-align: center;
+        width: 90%;
+        font-size: x-large;
+   }
+}
+
+.linkstyle {
+    color: #2d3c49;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    width: 90%;
+}
+
+@media (min-width:551px) {
+    .proj1,
+    .proj2 {
+        width: 32.1%;
+        margin-right: 1.8%;
+   }
+   
+    .proj3 {
+        width: 32.1%;
+   }
+}
+
+.container {
+    display:flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+}
+
+.container2 {
+    display:flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+@media (min-width:1001px) {
+    .headingDiv {
+        font-size: 2.5em;
+   }
+   
+    .icon {
+        width: 26%;
+        height: auto;
+   }
+   
+    .mastercontainer {
+        max-width:2000px;
+        margin-left:auto !important;
+        margin-right: auto !important;
+   }
+}
+
+.headerDiv {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 3.8px solid #7d97ad;
+    margin-bottom: 3%;
+}
+
+.mainDiv {
+    width:100%;
+}
+
+.headingDiv {
+    line-height: 0;
+    width:50%;
+}
+
+.iconDiv {
+    width:50%;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.icon {
+    margin-left: 1%;
+    margin-top: 2% 
+}
+
+h1 {
+    color: #2d3c49;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    float: right;
+    font-size: 2em;
+    width: max-content;
+}
+
+h2 {
+    color: #2d3c49;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    float: right;
+    font-size: 1em;
+    width: max-content;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+h3 {
+    color:#7d97ad;
+    font-weight: 100;
+    font-size: 1.8em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    text-decoration: underline;
+}
+
+body {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+div {
+    -webkit-transition: width 0.001s, font-size 0.001s;
+   /* Safari */
+    transition: width 0.00001s, font-size 0.00001s;
+}
